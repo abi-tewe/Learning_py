@@ -62,7 +62,7 @@ while pwd:
                             break
                 elif choice=='3':
                     print('----------YOUR BALANCE----------')
-                    print("*"*len(str(balance))
+                    print("*"*len(str(balance)))
                     check_balance_password=getpass.getpass(prompt='ENTER PIN: ')
                     if int(check_balance_password)==password:
                         print(f'BALANCE: ${balance}')
@@ -78,7 +78,7 @@ while pwd:
 
 
 
-#UNCOMPLETE
+
         
  
 
