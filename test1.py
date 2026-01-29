@@ -5,4 +5,4 @@ tasks = ["A", "B", "C"]
 
 # for x in  range(len(tasks)):
 #     print(x)
-
+print(tasks)
